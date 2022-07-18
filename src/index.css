@@ -40,13 +40,22 @@ body {
   margin: 3.2rem 0 0 0;
 }
 .container__btn {
-  background-color: var(--neon-green);
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
   position: relative;
   top: 15%;
   left: 45%;
+
+  background-color: var(--neon-green);
+  background-image: url("./assets//images/icon-dice.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+}
+.btn {
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  width: 5.5rem;
+  height: 5.5rem;
 }
 
 @media screen and (max-width: 1440px) {

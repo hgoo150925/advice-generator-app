@@ -11,9 +11,7 @@ export const Advice = () => {
           and taking action"
         </p>
       </div>
-      <div className="container__btn">
-        <button className="btn"></button>
-      </div>
+      <button className="container__btn btn"></button>
     </section>
   );
 };
