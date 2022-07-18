@@ -1,14 +1,18 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from 'react';
 
-export const useFetch = (url: any) => {
-  const [data, setData] = useState([]);
+export const useFetch = (url:any) => {
+//   const [loading, setLoading] = useState(true);
+  const [adviceData, setAdviceData] = useState([]);
 
-  useEffect(() => {
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => setData(data.slip));
+  const getfetchData = useCallback(async () => {
+    const response = await fetch(url);
+    const data = await response.json();
+    setAdviceData(adviceData);
+    // setLoading(false);
   }, [url]);
 
-  return [data];
+  useEffect(() => {
+    getfetchData();
+  }, [url, getfetchData]);
+  return {  adviceData  };
 };
-
