@@ -101,8 +101,16 @@ body {
     background-position: bottom;
     background-size: 85%;
   }
+  .container__btn {
+    position: relative;
+    top: 76%;
+    left: 48%;
+  }
+  .btn {
+    position: absolute;
+  }
 }
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   .container {
     background-color: var(--dark-grayish-blue);
     border-radius: 1.2rem;
