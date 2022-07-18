@@ -39,6 +39,15 @@ body {
   font-size: 2.8rem;
   margin: 3.2rem 0 0 0;
 }
+.container__btn {
+  background-color: var(--neon-green);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: relative;
+  top: 15%;
+  left: 45%;
+}
 
 @media screen and (max-width: 1440px) {
   .container {
