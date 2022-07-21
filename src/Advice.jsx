@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { useFetch } from "./useFetch";
 
 export const Advice = () => {
   const [advice, setAdvice] = useState({});
