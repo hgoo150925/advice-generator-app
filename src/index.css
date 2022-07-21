@@ -59,7 +59,7 @@ body {
   height: 5.5rem;
 }
 
-@media screen and (max-width: 1980px) {
+@media screen and (min-width: 1980px) {
   .container {
     background-color: var(--dark-grayish-blue);
     border-radius: 1.2rem;
@@ -85,7 +85,7 @@ body {
     position: absolute;
   }
 }
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1920px) {
   .container {
     background-color: var(--dark-grayish-blue);
     border-radius: 1.2rem;
@@ -104,39 +104,14 @@ body {
 
   .container__btn {
     position: relative;
-    top: 55%;
+    top: 35%;
     left: 48.5%;
   }
   .btn {
     position: absolute;
   }
 }
-@media screen and (max-width: 1536px) {
-  .container {
-    background-color: var(--dark-grayish-blue);
-    border-radius: 1.2rem;
-    max-width: 54rem;
-    height: 34rem;
-    margin: 22.4rem auto;
-  }
-  .container__adivice {
-    padding: 4.6rem;
-    text-align: center;
-    background-image: url("./assets/images/pattern-divider-desktop.svg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 85%;
-  }
 
-  .container__btn {
-    position: relative;
-    top: 77%;
-    left: 48.5%;
-  }
-  .btn {
-    position: absolute;
-  }
-}
 @media screen and (max-width: 1440px) {
   .container {
     background-color: var(--dark-grayish-blue);
@@ -163,6 +138,32 @@ body {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .container {
+    background-color: var(--dark-grayish-blue);
+    border-radius: 1.2rem;
+    max-width: 54rem;
+    height: 34rem;
+    margin: 22.4rem auto;
+  }
+  .container__adivice {
+    padding: 4.6rem;
+    text-align: center;
+    background-image: url("./assets/images/pattern-divider-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 85%;
+  }
+  .container__btn {
+    position: relative;
+    top: 90%;
+    left: 47%;
+  }
+  .btn {
+    position: absolute;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .container {
     background-color: var(--dark-grayish-blue);
@@ -174,7 +175,7 @@ body {
 
   .container__btn {
     position: relative;
-    top: 76%;
+    top: 80%;
     left: 43%;
   }
   .btn {
