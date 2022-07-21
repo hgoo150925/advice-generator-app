@@ -79,5 +79,11 @@ body {
     position: relative;
     top: 30%;
     left: 45%;
+
+    background-color: var(--neon-green);
+    background-image: url("./assets//images/icon-dice.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
   }
 }
