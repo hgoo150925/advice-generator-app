@@ -57,7 +57,7 @@ body {
 
 @media screen and (min-width: 1920px) {
   .btn {
-    margin: -5rem 0 0 0;
+    margin: -5rem 0 0;
   }
 }
 
@@ -79,14 +79,17 @@ body {
   }
   .container__btn {
     position: relative;
-    top: 30%;
-    left: 45%;
 
     background-color: var(--neon-green);
     background-image: url("./assets//images/icon-dice.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 40%;
+  }
+  .btn {
+    position: absolute;
+    top: 60%;
+    left: 48%;
   }
 }
 @media screen and (max-width: 375px) {
@@ -117,10 +120,5 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 40%;
-  }
-  .btn {
-    position: absolute;
-    top: 80%;
-    left: 42%;
   }
 }
