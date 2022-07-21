@@ -39,14 +39,26 @@ body {
   font-size: 2.5rem;
   margin: 3.2rem 0 0 0;
 }
+.container__btn {
+  background-color: var(--neon-green);
+  background-image: url("./assets//images/icon-dice.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+}
 
 .btn {
-  position: absolute;
   border-radius: 50%;
   border: none;
   cursor: pointer;
   width: 5.5rem;
   height: 5.5rem;
+}
+
+@media screen and (min-width: 1920px) {
+  .btn {
+    margin: -5rem 0 0 0;
+  }
 }
 
 @media screen and (min-width: 1440px) {
